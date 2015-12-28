@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="tlcApp">
+
+<head>
+    <title>The Learning Castle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+    <script src="js/app.js"></script>
+
+</head>
+
+<body>
+
+    <div class="brand">The Learning Castle</div>
+    <div class="address-bar">3624 Florida Avenue - Kenner, LA 70065 - 504-463-1103</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">The Learning Castle</a>
+            </div>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#/">Home</a>
+                    </li>
+                    <li>
+                        <a href="#/about">About</a>
+                    </li>
+                    <li>
+                        <a href="#/classrooms">Classrooms</a>
+                    </li>
+                    <li>
+                        <a href="#/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div ng-view></div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; The Learning Castle 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+</body>
+
+</html>
