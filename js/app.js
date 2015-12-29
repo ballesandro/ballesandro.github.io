@@ -3,6 +3,11 @@ var tlcApp = angular.module('tlcApp', [
     ]
 );
 
+tlcApp.controller('EmailCtrl', function($scope) {
+    $scope.submit = 
+
+});
+
 tlcApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider
