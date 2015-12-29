@@ -4,7 +4,7 @@ var tlcApp = angular.module('tlcApp', [
 );
 
 tlcApp.controller('EmailCtrl', function($scope) {
-    $scope.submit = 
+
 
 });
 
