@@ -79,7 +79,7 @@ img {
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
-    background: #fff;
+    background: white;
     background: rgba(255,255,255,0.9);
 }
 
@@ -102,7 +102,7 @@ img {
 }
 
 footer {
-    background: #fff;
+    background: white;
     background: rgba(255,255,255,0.9);
 }
 
@@ -128,7 +128,7 @@ footer p {
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
-        color: #fff;
+        color: white;
     }
 
     .top-divider {
@@ -150,7 +150,12 @@ footer p {
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
-        color: #fff;
+        color: white;
+    }
+
+    .address-bar a {
+        color: white;
+        text-decoration: underline;
     }
 
     .navbar {
@@ -167,7 +172,7 @@ footer p {
 
     .navbar-default {
         border: none;
-        background: #fff;
+        background: white;
         background: rgba(255,255,255,0.9);
     }
 
