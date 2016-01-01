@@ -19,7 +19,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -38,6 +37,7 @@ hr {
 
 img {
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .brand,
@@ -111,7 +111,23 @@ footer p {
     padding: 10px 0;
 }
 
+.caption {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+
 @media screen and (max-width:767px) {
+
     .portrait {
         max-width: 200px;
         margin: 0 auto;
